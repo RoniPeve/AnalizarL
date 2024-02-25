@@ -660,11 +660,6 @@ namespace WindowsFormsApplication6
             btnRestaurar.Visible = true;
         }
 
-        private void btnIntegrantes_Click(object sender, EventArgs e)
-        {
-            Integrantes inte = new Integrantes();
-            inte.ShowDialog();
-        }
 
         private void btnPalabras_Click(object sender, EventArgs e)
         {

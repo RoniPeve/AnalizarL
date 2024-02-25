@@ -61,12 +61,6 @@
     <Compile Include="Analizar.Designer.cs">
       <DependentUpon>Analizar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Integrantes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Integrantes.Designer.cs">
-      <DependentUpon>Integrantes.cs</DependentUpon>
-    </Compile>
     <Compile Include="PalabrasReservadas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,9 +71,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Analizar.resx">
       <DependentUpon>Analizar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Integrantes.resx">
-      <DependentUpon>Integrantes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PalabrasReservadas.resx">
       <DependentUpon>PalabrasReservadas.cs</DependentUpon>

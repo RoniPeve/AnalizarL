@@ -10,3 +10,16 @@ C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplic
 C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
 C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
 C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\obj\Debug\AnalizadorL.csprojAssemblyReference.cache
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Analizar.resources
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.PalabrasReservadas.resources
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\obj\Debug\AnalizadorL.csproj.GenerateResource.cache
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\obj\Debug\AnalizadorL.csproj.CoreCompileInputs.cache
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\obj\Debug\AnalizadorL.csproj.CopyComplete
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\Lexico\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb

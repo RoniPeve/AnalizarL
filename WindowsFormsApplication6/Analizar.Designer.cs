@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Analizar));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -43,17 +43,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.MenuVertical = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.btnPalabras = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnIntegrantes = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnAnalizar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.token = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnPalabras = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.BarraTitulo.SuspendLayout();
@@ -185,11 +183,9 @@
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.MenuVertical.Controls.Add(this.pictureBox2);
-            this.MenuVertical.Controls.Add(this.panel5);
             this.MenuVertical.Controls.Add(this.btnPalabras);
             this.MenuVertical.Controls.Add(this.panel4);
             this.MenuVertical.Controls.Add(this.panel3);
-            this.MenuVertical.Controls.Add(this.btnIntegrantes);
             this.MenuVertical.Controls.Add(this.panel2);
             this.MenuVertical.Controls.Add(this.btnLimpiar);
             this.MenuVertical.Controls.Add(this.btnAnalizar);
@@ -209,32 +205,6 @@
             this.pictureBox2.TabIndex = 17;
             this.pictureBox2.TabStop = false;
             // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel5.Location = new System.Drawing.Point(5, 287);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(5, 32);
-            this.panel5.TabIndex = 10;
-            // 
-            // btnPalabras
-            // 
-            this.btnPalabras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnPalabras.FlatAppearance.BorderSize = 0;
-            this.btnPalabras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnPalabras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPalabras.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPalabras.ForeColor = System.Drawing.Color.White;
-            this.btnPalabras.Image = global::WindowsFormsApplication6.Properties.Resources.archivo_64;
-            this.btnPalabras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPalabras.Location = new System.Drawing.Point(22, 249);
-            this.btnPalabras.Name = "btnPalabras";
-            this.btnPalabras.Size = new System.Drawing.Size(238, 32);
-            this.btnPalabras.TabIndex = 3;
-            this.btnPalabras.Text = "Palabras Reservadas";
-            this.btnPalabras.UseVisualStyleBackColor = false;
-            this.btnPalabras.Click += new System.EventHandler(this.btnPalabras_Click);
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
@@ -250,24 +220,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(5, 32);
             this.panel3.TabIndex = 6;
-            // 
-            // btnIntegrantes
-            // 
-            this.btnIntegrantes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnIntegrantes.FlatAppearance.BorderSize = 0;
-            this.btnIntegrantes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnIntegrantes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIntegrantes.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIntegrantes.ForeColor = System.Drawing.Color.White;
-            this.btnIntegrantes.Image = ((System.Drawing.Image)(resources.GetObject("btnIntegrantes.Image")));
-            this.btnIntegrantes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIntegrantes.Location = new System.Drawing.Point(16, 287);
-            this.btnIntegrantes.Name = "btnIntegrantes";
-            this.btnIntegrantes.Size = new System.Drawing.Size(237, 32);
-            this.btnIntegrantes.TabIndex = 4;
-            this.btnIntegrantes.Text = "Integrantes";
-            this.btnIntegrantes.UseVisualStyleBackColor = false;
-            this.btnIntegrantes.Click += new System.EventHandler(this.btnIntegrantes_Click);
             // 
             // panel2
             // 
@@ -324,14 +276,14 @@
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.ColumnHeadersHeight = 30;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.token,
@@ -353,6 +305,24 @@
             // 
             this.tipo.HeaderText = "TIPO";
             this.tipo.Name = "tipo";
+            // 
+            // btnPalabras
+            // 
+            this.btnPalabras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnPalabras.FlatAppearance.BorderSize = 0;
+            this.btnPalabras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnPalabras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPalabras.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPalabras.ForeColor = System.Drawing.Color.White;
+            this.btnPalabras.Image = global::WindowsFormsApplication6.Properties.Resources.archivo_64;
+            this.btnPalabras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPalabras.Location = new System.Drawing.Point(22, 249);
+            this.btnPalabras.Name = "btnPalabras";
+            this.btnPalabras.Size = new System.Drawing.Size(238, 32);
+            this.btnPalabras.TabIndex = 3;
+            this.btnPalabras.Text = "Palabras Reservadas";
+            this.btnPalabras.UseVisualStyleBackColor = false;
+            this.btnPalabras.Click += new System.EventHandler(this.btnPalabras_Click);
             // 
             // Analizar
             // 
@@ -397,11 +367,8 @@
         private System.Windows.Forms.RichTextBox txtentrada;
         private System.Windows.Forms.Panel MenuVertical;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button btnPalabras;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button btnIntegrantes;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnAnalizar;
@@ -409,6 +376,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn token;
         private System.Windows.Forms.DataGridViewTextBoxColumn tipo;
         private System.Windows.Forms.PictureBox btnRestaurar;
+        private System.Windows.Forms.Button btnPalabras;
     }
 }
 
