@@ -1,0 +1,12 @@
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Analizar.resources
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Integrantes.resources
+C:\Users\RONI\Documents\Visual Studio 2015\Projects\AnalizarL\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.PalabrasReservadas.resources
